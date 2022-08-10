@@ -1,26 +1,31 @@
 <script setup>
-import HelloWorld from "./components/HelloWorld.vue";
-import TheWelcome from "./components/TheWelcome.vue";
+// import HelloWorld from "./components/HelloWorld.vue";
+// import TheWelcome from "./components/TheWelcome.vue";
+import CookieStand from "./components/CookieStand.vue";
 </script>
 
 <template>
-  <header>
+  <!-- <header>
     <img
       alt="Vue logo"
       class="logo"
       src="./assets/logo.svg"
-      width="125"
+      width="225"
       height="125"
     />
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
     </div>
-  </header>
+  </header> -->
 
   <main>
-    <TheWelcome />
+    <CookieStand />
   </main>
+
+  <!-- <main>
+    <TheWelcome />
+  </main> -->
 </template>
 
 <style scoped>
@@ -49,5 +54,12 @@ header {
     place-items: flex-start;
     flex-wrap: wrap;
   }
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 </style>
