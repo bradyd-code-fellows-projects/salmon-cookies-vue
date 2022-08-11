@@ -1,5 +1,5 @@
 <script setup>
-import Sales from "./Sales.vue";
+// import SalesTable from "./SalesTable.vue";
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -30,7 +30,8 @@ import Sales from "./Sales.vue";
 
   <section>
     <div>
-      <Sales />
+      ***********Sales Table here***************
+      <!-- <SalesTable /> -->
     </div>
 
     <section class="center">
