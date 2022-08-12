@@ -1,12 +1,11 @@
 <script setup>
-// import SalesTable from "./SalesTable.vue";
+import SalesTable from "./SalesTable.vue";
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap" />
 
 <template>
-
   <body>
     <h1 class="highlights">Salmon Cookies</h1>
     <img src="img/salmon.png" width="600" />
@@ -26,8 +25,7 @@
 
     <section>
       <div>
-        ***********Sales Table here***************
-        <!-- <SalesTable /> -->
+        <SalesTable />
       </div>
 
       <section class="center">
